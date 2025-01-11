@@ -2,12 +2,34 @@
 
 The Bitcoin Wallet Password Removal Tool is a highly sophisticated and technically advanced software suite designed to facilitate the decryption and password removal of [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/wallet) files stored in BerkeleyDB or SQLite database formats. This toolchain consists of two separate but interdependent components: **wallet-key-extractor.cpp** and **wallet-tool.cpp**. Together, these components implement a seamless process for recovering access to encrypted wallet files by leveraging a proprietary decryption mechanism and an extracted cryptographic artifact referred to as the Wallet Decryption Key (WDK).
 
-## Compiling
+## Compiling and Usage
 For compiling you will need to use this command:
 ```
 g++ -std=c++17 wallet-tool.cpp -o wallet-tool
 ```
 Precompiled binaries are also available.
+
+For usage run:
+```
+./wallet-tool --help
+```
+Output:
+```
+Wallet Tool Usage:
+
+Option 1: Password Removal
+  --wallet <path>           Specify wallet.dat file path
+  --type <BerkelyDB|SQLite> Specify database type
+  --KEY <5-byte-hex>        Specify 5-byte hexadecimal key
+  --remove-pass             Remove wallet password
+
+Option 2: Key Dumping
+  --wallet <path>           Specify wallet.dat file path
+  --dump-all-keys           Dump all keys from wallet
+
+Help:
+  --help                    Show this help message
+```
 
 ## Component 1: wallet-key-extractor.cpp
 
