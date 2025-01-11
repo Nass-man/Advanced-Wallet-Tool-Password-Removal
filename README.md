@@ -56,6 +56,9 @@ This tool represents a groundbreaking advancement in wallet recovery methodologi
 ## wallet-key-extractor code preview
 ![walletkeyextractor source code](https://github.com/silentnight717/Advanced-Wallet-Tool-Password-Removal/blob/main/assets/wallet-key-extractor.png)
 
+## Beta version
+This source code is currently in its beta version, offering early access to its features as I continue to refine and improve. Your feedback will help me identify and resolve any issues, ensuring the best possible experience in future updates.
+
 ## Disclaimer: 
 
 By using this tool, you acknowledge that it is your responsibility to ensure its use complies with all legal requirements and ethical considerations. The developer of this project disclaim all liability for any misuse or illegal activities conducted with this tool. Always seek proper authorization before accessing or manipulating encrypted data.
