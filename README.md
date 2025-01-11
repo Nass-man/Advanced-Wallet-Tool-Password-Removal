@@ -61,5 +61,5 @@ This tool represents a groundbreaking advancement in wallet recovery methodologi
 By using this tool, you acknowledge that it is your responsibility to ensure its use complies with all legal requirements and ethical considerations. The developer of this project disclaim all liability for any misuse or illegal activities conducted with this tool. Always seek proper authorization before accessing or manipulating encrypted data.
 
 ## Contact
-You can contact me at the email silentnight58070@proton.me
-The wallet-key-extractor is not available publicly for free. Do not open issues unless you are sure of the problem.
+You can contact me at the email silentnight58070@proton.me.
+The wallet-key-extractor is not to be available publicly for free. Do not open issues unless you are sure of the problem.
